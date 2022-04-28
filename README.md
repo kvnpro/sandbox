@@ -12,3 +12,7 @@ Been out in the car:
 - Ziggi's in Broomfield
 - Kohl's looking for pants
 - Hang drapes in bedroom over headboard
+- 
+- 
+
+Updates from iPhone now too.   
