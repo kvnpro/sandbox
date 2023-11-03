@@ -31,14 +31,14 @@ def outputImages(imageLst, imageMeta):
         if image.width >= min_width and image.height >= min_height:
             image.save(
                 open(
-                    f"{outputDir}/{f.name}-{imageMeta[imageIndex]['name']}.{outputFormat}",
+                    f"{outputDir}/{imageMeta[imageIndex]['name']}.{outputFormat}",
                     "wb",
                 ),
                 format=outputFormat.upper(),
             )
 
             with open(
-                f"{outputDir}/{f.name}-{imageMeta[imageIndex]['name']}.txt", "w"
+                f"{outputDir}/{imageMeta[imageIndex]['name']}.txt", "w"
             ) as txtFile:
                 txtFile.write("\n".join(str(i) for i in imageMeta[imageIndex]["desc"]))
         else:
