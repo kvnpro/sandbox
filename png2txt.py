@@ -1,6 +1,8 @@
 import cv2
 import pytesseract
 
+##
+
 
 def extract_text_from_image(image):
     text = pytesseract.image_to_string(image)
