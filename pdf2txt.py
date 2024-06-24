@@ -30,9 +30,7 @@ def extract_text_from_image(image):
     return text
 
 
-easy_text_path = (
-    "/Users/kevin/Desktop/SMA Parents Handbook with 75-76 Insert/Scan 29.pdf"
-)
+easy_text_path = "/Users/kevin/Desktop/HWLay.pdf"
 pages = convert_from_path(easy_text_path)
 # easy_img = cv2.imread(easy_text_path)
 
