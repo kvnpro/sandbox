@@ -19,4 +19,4 @@ Updates from iPhone now too.
 
 from new ipad, on 6/5 - tested magics and was able to run youtube video, create and execute .py and us !lsto pull a list of files into list to manipulate.
 
-# really?
+# really now?
